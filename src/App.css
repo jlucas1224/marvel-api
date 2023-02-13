@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.main-spinner {
+  height: 200px;
+  width: 200px;
+  font-size: 50px;
+}
+
+.character-list {
+  grid-gap: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5,1fr);
+}
