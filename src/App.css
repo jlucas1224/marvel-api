@@ -14,5 +14,17 @@
   grid-gap: 10px;
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(4,1fr);
+}
+
+.content-header {
+  padding: 10px 10px;
+}
+
+.search-character {
+  font-size: 24px;
+}
+
+.search-character::placeholder {
+  color: black;
 }

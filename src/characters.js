@@ -1,5 +1,6 @@
 export const Marvel = { 
     characters: [],
+    searchedCharacters: [],
     /**
      * @param {string} name 
      * @returns {character[]}

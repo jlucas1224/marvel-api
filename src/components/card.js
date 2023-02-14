@@ -1,13 +1,12 @@
-import './card.css'
+export function Card(props) {
+    const src = `${props.path}.${props.extension}`
 
-export function Card(name, id, path, extension) {
-    return `
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="${path}.${extension}" class="img-fluid" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">${name}</h5>
+    return (
+        <div className="card character-card">
+            <img className="card-img-top img-fluid" src={src} alt="Card cap"/>
+            <div className="card-body">
+                <h5 className="card-title">{props.name}</h5>
             </div>
         </div>
-        
-    `
+    )
 }
